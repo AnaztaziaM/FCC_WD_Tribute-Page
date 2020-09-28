@@ -1,0 +1,71 @@
+body {
+ background-color: #AEFFBE;
+  backdrop-filter: blur(20px);
+  backdrop-filter: brightness(80%);
+  backdrop-filter: contrast(70%);}
+
+#tribute-info {
+  font-size: 20px;
+  text-align:center;
+  font-weight: bold;}
+
+
+#title{
+  text-align:center;
+  font-family: abril fatface, Open Sans;}
+
+h2 {
+  text-align:center;
+  font-family: Open Sans, abril fatface;}
+
+#img-div{
+  text-align:center;}
+
+#image{
+  max-width:100%; 
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;}
+
+.big-photo{
+  max-width:100%;
+  height:175px;
+  border-color: green;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10%;}
+
+.more-info{
+text-align:center;}
+
+#tribute-link{ 
+  color: blue;}
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
