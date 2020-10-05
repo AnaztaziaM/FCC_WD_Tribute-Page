@@ -1,8 +1,10 @@
-body {
- background-color: #AEFFBE;
-  backdrop-filter: blur(20px);
-  backdrop-filter: brightness(80%);
-  backdrop-filter: contrast(70%);}
+body { 
+ background-image: url("https://www.seekpng.com/png/full/57-577166_png-black-and-white-stock-academy-award-clipart.png");
+  background-color: #FFF8CC;
+  background-repeat: no-repeat;
+}
+  
+
 
 #tribute-info {
   font-size: 20px;
@@ -12,11 +14,17 @@ body {
 
 #title{
   text-align:center;
-  font-family: abril fatface, Open Sans;}
+  font-family: abril fatface, Open Sans;
+  backdrop-filter: blur(20px);
+  backdrop-filter: brightness(80%);
+  backdrop-filter: contrast(70%);}
 
 h2 {
   text-align:center;
-  font-family: Open Sans, abril fatface;}
+  font-family: Open Sans, abril fatface;
+  backdrop-filter: blur(20px);
+  backdrop-filter: brightness(80%);
+  backdrop-filter: contrast(70%);}
 
 #img-div{
   text-align:center;}
@@ -27,12 +35,16 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;}
+  border-radius: 50%; 
+  border-color:#ffbf00;
+  border-width: 5px;
+  border-style: solid;
+  }
 
 .big-photo{
   max-width:100%;
   height:175px;
-  border-color: green;
+  border-color:#ffbf00;
   border-width: 5px;
   border-style: solid;
   border-radius: 10%;}
@@ -68,4 +80,11 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: center;
+}
+p {
+  text-align:justify;
+  margin-right: 50px;
+  margin-left: 50px;}
+h3{
+  margin-left: 50px;
 }
